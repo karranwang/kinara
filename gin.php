@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Login - Grup K-POP Sharing 2025</title>
+  <title>Login - Grup BKPRS 2025</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
